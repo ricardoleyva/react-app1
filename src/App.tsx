@@ -18,7 +18,7 @@ function App() {
   const handleButtonClick = () => setShowAlert(true);
   const handleOnClose = () => setShowAlert(false);
   return (
-    <div>
+    <>
       {showAlert && <Alert onClose={handleOnClose}>Hello World</Alert>}
       <Button color="success" onClick={handleButtonClick}>
         Ricardo
@@ -28,7 +28,7 @@ function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
-    </div>
+    </>
   );
 }
 
