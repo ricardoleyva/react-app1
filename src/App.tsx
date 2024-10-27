@@ -2,8 +2,9 @@ import Alert from "./components/Alert";
 import Button from "./components/Button";
 import Cart from "./components/Cart";
 import ExpandableText from "./components/ExpandableText";
-import Form from "./components/Form";
+import FormA from "./components/FormA";
 import FormB from "./components/FormB";
+import FormC from "./components/FormC";
 import Like from "./components/Like";
 import ListGroup from "./components/ListGroup";
 import NavBar from "./components/NavBar";
@@ -135,8 +136,9 @@ function App() {
         omnis nulla, facilis debitis, voluptatem vel fuga repellat et.
         Necessitatibus exercitationem dolore voluptas illum.
       </ExpandableText>
-      <Form />
+      <FormA />
       <FormB />
+      <FormC />
     </>
   );
 }

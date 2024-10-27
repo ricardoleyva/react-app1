@@ -1,6 +1,6 @@
 import { FormEvent, useState } from "react";
 
-const Form = () => {
+const FormB = () => {
   const [person, setPerson] = useState({
     name: "",
     age: 0,
@@ -45,4 +45,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default FormB;
